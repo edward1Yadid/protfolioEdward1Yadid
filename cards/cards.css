@@ -1,0 +1,41 @@
+.title {
+    text-align: center;
+}
+.cards-major {
+    padding: 4rem 0;
+}
+.card-center {
+    max-width: 300px;
+    margin: 2rem auto;
+}
+
+.card {
+    box-shadow: 1px 1px 1px lightgray;
+    margin-bottom: 3rem;
+}
+
+.card-second-title {
+    padding: 1rem;
+}
+img {
+    max-width: 300px;
+}
+.cardbuttom {
+    display: flex;
+    justify-content: center;
+}
+
+.card-center {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    gap: 1.25rem;
+    grid-template-rows: 500px 500px;
+}
+
+@media screen and (max-width: 768px) {
+    .card-center {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1.25rem;
+    }
+}

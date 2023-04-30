@@ -1,0 +1,31 @@
+.nav-bar-major {
+    display: flex;
+    justify-content: space-around;
+    min-height: 70px;
+    box-shadow: 1px 5px 1px lightgray;
+}
+
+.list {
+    list-style-type: none;
+}
+.list .list-item {
+    display: inline-block;
+    padding: 10px 20px;
+}
+a {
+    text-decoration: none;
+}
+a:visited {
+    color: lightgray;
+}
+.firstimg {
+    border-radius: 20px;
+    gap: 2.5rem;
+}
+
+@media screen and (max-width: 768px) {
+    .nav-bar-major {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
