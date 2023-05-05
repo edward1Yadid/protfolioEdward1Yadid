@@ -22,17 +22,46 @@
     font-size: 1.2rem;
 }
 
-.buttom {
+.button {
     padding: 5px 5px;
     background: #1ae0ec;
     border-radius: 20px;
 }
 
-.buttom-1 {
+.button-1 {
     padding: 10px 15px;
     background: #1ae0ec;
     font-weight: bold;
 }
+
+.cardbutton {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+
+    animation: spin 20s infinite;
+    gap: .3125rem;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(180deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+
+}
+
+
+
 
 /*  General style End */
 /* nav-bar start */
