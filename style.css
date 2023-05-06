@@ -182,7 +182,7 @@ h2 {
     padding: 30px;
     grid-template-columns: 400px 500px;
     grid-template-rows: repeat(1, 400px);
-    margin-right: 500px;
+    margin-right: 200px;
 }
 
 p {
@@ -236,7 +236,7 @@ p {
 
 .container-cv {
     display: grid;
-    grid-template-columns: 500px 500px 1fr;
+    grid-template-columns: 150px 500px 1fr;
     padding: 30px;
     grid-gap: 100px;
     background-color: var(--cv-back);
