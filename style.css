@@ -430,6 +430,79 @@ img {
 
 }
 
+#projectJs {
+    width: 100vw;
+    height: 1300px;
+    background-color: #aeb4b5;
+    box-shadow: 1px 1px 1px lightgray;
+
+
+}
+
+#cardProjectcenter {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6.25rem;
+    max-width: calc((3 * 450px) + (2 * 6.25rem));
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+#projectJs-head {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .9375rem;
+    padding-bottom: 50px;
+    padding-top: 100px;
+}
+
+.card-jsProject {
+    width: 450px;
+    height: 400px;
+    box-shadow: 1px 1px 1px lightgray;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 2.0rem;
+    margin: auto;
+    align-items: center;
+
+
+}
+
+.imageprojectJs {
+    border-radius: 40px;
+    box-shadow: 1px 1px 1px lightgray;
+
+}
+
+
+.cardNameProjectJs {
+    font-size: 1.25rem;
+    font-weight: bold;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* general sitting */
 @media screen and (min-width:1017px) and (max-width:1416px) {
 
