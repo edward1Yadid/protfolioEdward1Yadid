@@ -433,7 +433,7 @@ img {
 #projectJs {
     width: 100vw;
     height: 1300px;
-    background-color: #aeb4b5;
+    background-color: #f5feff;
     box-shadow: 1px 1px 1px lightgray;
 
 
@@ -463,7 +463,7 @@ img {
 .card-jsProject {
     width: 450px;
     height: 400px;
-    box-shadow: 1px 1px 1px lightgray;
+
     margin-bottom: 5px;
     display: flex;
     flex-direction: column;
