@@ -170,6 +170,7 @@ h2 {
     align-items: center;
     gap: 1.25rem;
     box-shadow: 1px 1px 5px lightgrey;
+    margin-top: 100px;
 }
 
 
@@ -432,7 +433,6 @@ img {
 
 #projectJs {
     width: 100vw;
-    height: 1300px;
     background-color: #f5feff;
     box-shadow: 1px 1px 1px lightgray;
 
@@ -442,11 +442,27 @@ img {
 #cardProjectcenter {
     display: flex;
     flex-wrap: wrap;
-    gap: 6.25rem;
-    max-width: calc((3 * 450px) + (2 * 6.25rem));
-    justify-content: center;
-    align-items: center;
+    gap: 8.25rem;
+    max-width: calc((3 * 350px) + (3 * 8.25rem));
     margin: auto;
+    justify-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+@media screen and (max-width:1016px) {
+    #cardProjectcenter {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, fr);
+        place-items: center;
+        margin: auto;
+
+    }
+
+
+
 }
 
 #projectJs-head {
@@ -461,14 +477,12 @@ img {
 }
 
 .card-jsProject {
-    width: 450px;
+    width: 360px;
     height: 400px;
-
     margin-bottom: 5px;
     display: flex;
     flex-direction: column;
     gap: 2.0rem;
-    margin: auto;
     align-items: center;
 
 
