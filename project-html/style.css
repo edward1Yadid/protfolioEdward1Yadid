@@ -1,0 +1,186 @@
+* General style start*/ * {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 100px;
+}
+
+:root {
+    --backimg: #b3f3f7;
+    --cv-back: #2f2e2e;
+    --pdf-logo: #1ae0ec;
+    --footer-color: #383838;
+    --footer-color-2: #eeeeee;
+    --footer-back: #f3f3f3;
+    --inputcolor: #f6f6f6;
+    --whitecolor: #ffff;
+}
+
+
+#logo-2 {
+    font-family: 'Satisfy', cursive;
+    font-size: 1.2rem;
+}
+
+.button {
+    padding: 5px 5px;
+    background: #1ae0ec;
+    border-radius: 20px;
+}
+
+.button-1 {
+    padding: 10px 15px;
+    background: #1ae0ec;
+    font-weight: bold;
+}
+
+.cardbutton {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+
+    animation: spin 20s infinite;
+    gap: .3125rem;
+}
+
+.nav-bar-major {
+    display: flex;
+    justify-content: space-around;
+    min-height: 70px;
+    box-shadow: 1px 5px 1px lightgray;
+    align-items: center;
+    justify-items: center;
+    flex-wrap: wrap;
+}
+
+.sti {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    height: 70px;
+    background-color: var(--whitecolor)
+}
+
+.list {
+    list-style-type: none;
+}
+
+.list .list-item {
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: lightgray;
+}
+
+.firstimg {
+    border-radius: 20px;
+    gap: 2.5rem;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 1.25rem;
+}
+
+@media screen and (max-width: 768px) {
+    .nav-bar-major {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    background-image: url(img/bg.jpeg);
+    background-blend-mode: multiply;
+    background-color: var(--backimg);
+    margin-top: 100px;
+    min-height: 400px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat, repeat;
+}
+
+h2 {
+    margin-top: 100px;
+    font-size: 50px;
+}
+
+@media screen and (max-width:498px) {
+
+    .firstimg {
+        height: 25px;
+    }
+
+    a:visited {
+        color: var(--pdf-logo)
+    }
+}
+
+.detailP {
+    text-align: center;
+    width: 600px;
+
+}
+
+.container3 {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.25rem;
+    margin-left: 500px;
+    width: 100vw;
+
+}
+
+img {
+    max-width: 750px;
+    border-radius: 10px;
+    box-shadow: 10px 19px 22px lightgray;
+}
+
+img:hover {
+    transform: scale(1.5);
+
+}
+
+.container4 {
+    background: black;
+    height: 40.5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px 10px;
+    color: #1ae0ec;
+    align-items: center;
+    border-bottom: 5px solid #1ae0ec;
+
+}
+
+.image-Project {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
