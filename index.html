@@ -70,20 +70,37 @@
                 <div class="box"><img class="profle-img" src="img/EDWARD YADID.jpg" alt=""></div>
                 <div class="box-1">
                     <div>
-                        <h2>קצת עליי</h2>
-                        <div>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem officiis magni
-                                corrupti porro
-                                accusantium laboriosam vel amet nulla? Repudiandae,asdasdasdasd dolor.</p>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem officiis magni
-                                corrupti porro
-                                accusantium laboriosam vel amet nulla? Repudiandae,asdasdasdasd dolor.</p>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem officiis magni
-                                corrupti porro
-                                accusantium laboriosam vel amet nulla? Repudiandae,asdasdasdasd dolor.</p>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem officiis magni
-                                corrupti porro
-                                accusantium laboriosam vel amet nulla? Repudiandae,asdasdasdasd dolor.</p>
+                        <h2>about me</h2>
+                        <div id="aboutMe">
+                            <p>Hello! I'm Edward Yadid, a 29-year-old professional currently residing in the beautiful
+                                country of Israel. I am a
+                                Certified Public Accountant (CPA) and have the privilege of working at EY Israel
+                            </p>
+
+                            <p>
+                                While my career as a CPA is deeply fulfilling, I'm also on an exciting journey of
+                                self-improvement and growth. I've
+                                recently embarked on the path of learning full-stack development, driven by my curiosity
+                                and passion for technology.
+                                This journey has opened up a world of possibilities, and I'm eager to explore the art of
+                                building web applications from
+                                both the front-end and back-end perspectives
+                            </p>
+                            <p>
+                                Beyond the world of finance and coding, I'm a firm believer in the importance of
+                                work-life balance. I cherish the
+                                moments spent exploring Israel's rich cultural heritage, indulging in its vibrant
+                                culinary scene, and, of course,
+                                spending quality time with my friends and family
+                            </p>
+
+                            <p>
+                                Thank you for taking the time to get to know a bit about me. Whether you're interested
+                                in finance, technology, or simply
+                                connecting with fellow enthusiasts, I'm always open to new conversations and
+                                collaborations
+                            </p>
+
                         </div>
                     </div>
                 </div>
@@ -323,7 +340,7 @@
                         </P>
                     </div>
                 </div>
-                <form action="mailto:ediyadid@gmail.com" method="post">
+                <form id="formValidation" action="mailto:ediyadid@gmail.com" method="post">
                     <div class=" form-control">
                         <label for="fullname">שם</label>
                         <input type="text" id="fullname" name="fullname" placeholder="שם">
@@ -331,11 +348,11 @@
 
                     <div class=" form-control">
                         <label for="email">אימייל</label>
-                        <input type="email" id="email" name="email" placeholder="אימייל">
+                        <input type="text" id="email" name="email" placeholder="אימייל">
                     </div>
                     <div class=" form-control">
                         <label for="phonenumber">טלפון</label>
-                        <input type="tel" id="phonenumber" name="phonenumber" placeholder="טלפון">
+                        <input type="text" id="phonenumber" name="phonenumber" placeholder="טלפון">
                     </div>
                     <div class=" form-control">
                         <label for="message">הודעה</label>
@@ -343,6 +360,7 @@
                     </div>
                     <div class="  form-control"></div>
                     <button class="button-1" type="submit">שליחה</button>
+                    <button id="clearForm" class="button-1" type="reset">ניקוי</button>
             </div>
             </form>
         </div>
@@ -381,6 +399,9 @@
     <div class="container9">
         <p>&#169 כל הזכויות שמורות אדוארד ידיד</p>
     </div>
+
+
+    <script src="script.js"></script>
 </body>
 
 </html>

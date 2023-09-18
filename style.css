@@ -181,9 +181,10 @@ h2 {
 .container4 {
     display: grid;
     padding: 30px;
-    grid-template-columns: 400px 500px;
+    grid-template-columns: 400px 800px;
     grid-template-rows: repeat(1, 400px);
     margin-right: 170px;
+    text-align: left;
 }
 
 p {
@@ -203,8 +204,7 @@ p {
 }
 
 
-
-@media screen and (max-width:1016px) {
+@media screen and (max-width:1362px) {
     .container4 {
         display: grid;
         grid-template-columns: 1fr;
@@ -388,6 +388,19 @@ img {
 
 .major-form {
     padding: 30px;
+}
+
+.validInput {
+
+    box-shadow: 1px 5px 1px green !important;
+    color: green;
+    border: 1px solid green;
+}
+
+.invalidInput {
+    box-shadow: 1px 5px 1px red !important;
+    color: red;
+    border: 1px solid red;
 }
 
 @media screen and (min-width:457px) and (max-width: 1016px) {
