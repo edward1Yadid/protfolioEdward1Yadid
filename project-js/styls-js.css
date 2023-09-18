@@ -100,7 +100,7 @@ a:visited {
     height: 698px;
 }
 
-.container9 {
+.containerFotter {
     background: black;
     height: 40.5px;
     display: flex;
@@ -165,4 +165,10 @@ a:visited {
     gap: 1.25rem;
     justify-content: start;
     align-items: start;
+}
+
+p {
+    letter-spacing: 1.5;
+    width: 500px;
+    text-align: left
 }

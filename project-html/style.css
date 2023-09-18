@@ -1,6 +1,7 @@
 * General style start*/ * {
     margin: 0;
     padding: 0;
+
 }
 
 html {
@@ -43,7 +44,6 @@ html {
     flex-direction: row;
     justify-content: center;
     margin-top: 20px;
-
     animation: spin 20s infinite;
     gap: .3125rem;
 }
@@ -56,9 +56,10 @@ html {
     align-items: center;
     justify-items: center;
     flex-wrap: wrap;
+    width: 97vw;
 }
 
-.sti {
+.Header {
     position: fixed;
     top: 0;
     z-index: 1;
@@ -103,7 +104,7 @@ a:visited {
     }
 }
 
-.container2 {
+.herosec {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -140,7 +141,7 @@ h2 {
 
 }
 
-.container3 {
+.lanuages {
     display: flex;
     flex-direction: row-reverse;
     flex-wrap: wrap;
@@ -158,12 +159,33 @@ img {
     box-shadow: 10px 19px 22px lightgray;
 }
 
-img:hover {
-    transform: scale(1.5);
+@media screen and (max-width:950px) {
+    .cardp {
+        width: 100%;
+        height: auto;
+    }
+
+    .lanuages {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 4.25rem;
+        margin-left: 500px;
+        width: 90vw;
+    }
+
+    .photo {
+        width: 20px;
+        padding: 15px;
+
+    }
 
 }
 
-.container4 {
+
+.containerFotter {
     background: black;
     height: 40.5px;
     display: flex;

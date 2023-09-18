@@ -78,9 +78,11 @@ html {
     align-items: center;
     justify-items: center;
     flex-wrap: wrap;
+    width: 99vw;
+
 }
 
-.sti {
+.Header {
     position: fixed;
     top: 0;
     z-index: 1;
@@ -439,13 +441,15 @@ img {
 
 /* footer start */
 
-.container9 {
+.containerFotter {
     background: lightgray;
+    padding: 5px;
+    font-weight: bold;
 
 }
 
 #projectJs {
-    width: 100vw;
+    width: 98vw;
     background-color: #f5feff;
     box-shadow: 1px 1px 1px lightgray;
 
