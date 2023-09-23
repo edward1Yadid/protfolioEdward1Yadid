@@ -8,16 +8,7 @@ html {
     scroll-padding-top: 100px;
 }
 
-:root {
-    --backimg: #b3f3f7;
-    --cv-back: #2f2e2e;
-    --pdf-logo: #1ae0ec;
-    --footer-color: #383838;
-    --footer-color-2: #eeeeee;
-    --footer-back: #f3f3f3;
-    --inputcolor: #f6f6f6;
-    --whitecolor: #ffff;
-}
+
 
 #logo-2 {
     font-family: 'Satisfy', cursive;
@@ -35,7 +26,7 @@ html {
     flex-wrap: wrap;
 }
 
-.sti {
+.Header {
     position: fixed;
     top: 0;
     z-index: 1;
@@ -83,21 +74,43 @@ a:visited {
 /* nav-bar end */
 
 
-.detailProject {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 400px;
-    gap: 1.25rem;
-    margin-bottom: 200px;
+
+.datatilHeaderProject {
+    text-align: justify;
+
+    width: 500px;
 }
+
+.languageContainer {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.25rem;
+    margin-top: 90px;
+    width: 100vw;
+}
+
 
 .detailProjectContainer {
     display: flex;
     flex-wrap: wrap;
-    height: 444px;
     background-color: #f3f3f3;
-    height: 698px;
+    height: auto;
+    justify-content: center;
+    flex-direction: row;
+    gap: 4.625em;
+    align-items: center;
+
+
+}
+
+.detailProject {
+    gap: 0.3125rem;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
 }
 
 .containerFotter {
@@ -106,10 +119,13 @@ a:visited {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 5px 10px;
     color: #1ae0ec;
     align-items: center;
-    border-bottom: 5px solid #1ae0ec;
+    border-bottom: 2px solid #1ae0ec;
+    bottom: 0;
+    position: fixed;
+    width: 100vw;
+    padding: 10px 0;
 
 }
 
@@ -127,17 +143,7 @@ a:visited {
 
 }
 
-.container3 {
-    display: flex;
-    flex-direction: row-reverse;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 1.25rem;
-    margin-top: 90px;
-    margin-left: 500px;
-    width: 100vw;
-}
+
 
 .button {
     padding: 5px 5px;
@@ -151,13 +157,8 @@ a:visited {
     height: 400px;
 }
 
-.details {
-    display: flex;
-    flex-direction: row;
-    gap: 3.25rem;
-    margin-right: 300px;
-    margin-top: 100px;
-}
+
+
 
 .button2 {
     display: flex;
@@ -165,10 +166,4 @@ a:visited {
     gap: 1.25rem;
     justify-content: start;
     align-items: start;
-}
-
-p {
-    letter-spacing: 1.5;
-    width: 500px;
-    text-align: left
 }
