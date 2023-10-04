@@ -73,7 +73,7 @@ html {
 .nav-bar-major {
     display: flex;
     justify-content: space-around;
-    min-height: 70px;
+    min-height: 100px;
     box-shadow: 1px 5px 1px lightgray;
     align-items: center;
     justify-items: center;
@@ -87,7 +87,7 @@ html {
     top: 0;
     z-index: 1;
     width: 100%;
-    height: 70px;
+    height: 100px;
     background-color: var(--whitecolor)
 }
 
@@ -130,7 +130,7 @@ a:visited {
 /* nav-bar end */
 
 /* hero-section start */
-.container2 {
+#herosection {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -139,7 +139,6 @@ a:visited {
     background-image: url(img/bg.jpeg);
     background-blend-mode: multiply;
     background-color: var(--backimg);
-    margin-top: 70px;
     text-align: center;
     background-size: 100% 100%;
     background-repeat: no-repeat, repeat;
@@ -164,7 +163,7 @@ h2 {
 /* hero-section end */
 
 /* programs  start */
-.container3 {
+.languageContainer {
     display: flex;
     flex-direction: row-reverse;
     flex-wrap: wrap;
@@ -180,7 +179,7 @@ h2 {
 /* programs  end */
 
 /* about me start */
-.container4 {
+.containerAboutMe {
     display: grid;
     padding: 30px;
     grid-template-columns: 400px 800px;
@@ -207,7 +206,7 @@ p {
 
 
 @media screen and (max-width:1362px) {
-    .container4 {
+    .containerAboutMe {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: repeat(2, fr);
@@ -537,7 +536,7 @@ img {
 /* general sitting */
 @media screen and (min-width:1017px) and (max-width:1416px) {
 
-    .container4 {
+    .containerAboutMe {
         margin-right: 100px;
     }
 
@@ -626,7 +625,7 @@ img {
         padding: 5px 5px;
     }
 
-    .container4 {
+    .containerAboutMe {
 
         padding: 5px;
     }
